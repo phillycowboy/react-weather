@@ -9,14 +9,18 @@ body {
 }
 
 .app {
-  background-image: url('./assests/cold-jpg.jpeg');
+  /* pics are too large for desktop but not mobile */
+  /* background-image: url('./assests/cold-jpg.jpeg'); */
+  background-color: blue;
   background-position: center;
   background-size: cover;
   transition: 0.4s ease-out;
 }
 
 .app.warm {
-  background-image: url('./assests/warm-jpg.jpeg');
+  /* pics are too large for desktop but not mobile */
+  /* background-image: url('./assests/warm-jpg.jpeg'); */
+  background-color: red;
 }
 
 main {
